@@ -1,0 +1,151 @@
+{
+  "summary": {
+    "insured_name": "Pacific Retail Group LLC",
+    "total_locations": 3,
+    "primary_contact_email": "michael.rodriguez@pacificretailgroup.com"
+  },
+  "loss_history": [
+    {
+      "date": "2020-03-12",
+      "location": "Downtown LA Warehouse",
+      "description": "Unauthorized entry through forced rear door during overnight hours. Thieves removed approximately $15,000 worth of consumer electronics (primarily laptops and tablets).",
+      "amount_paid": 15000.0,
+      "status": "Paid"
+    },
+    {
+      "date": "2022-01-01",
+      "location": "Marina Del Rey Storefront",
+      "description": "Water damage occurred during January 2022 storm event (roof leak, not flood-related).",
+      "amount_paid": 28000.0,
+      "status": "Paid"
+    }
+  ],
+  "locations": [
+    {
+      "loc_number": 1,
+      "name": "Westwood Shopping Plaza",
+      "address": {
+        "street": "2847 Westwood Boulevard",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90064"
+      },
+      "interest": {
+        "ownership_status": "Owned",
+        "building_limit": 4200000.0,
+        "contents_limit": 850000.0,
+        "business_income": 492840.0
+      },
+      "construction": {
+        "year_built": 1987,
+        "construction_type": "Type II-B",
+        "roof_type": "Flat roof with rubber EPDM membrane",
+        "square_footage": 45000,
+        "stories": 1
+      },
+      "occupancy": {
+        "primary_use": "Multi-tenant retail strip mall",
+        "tenants": [
+          "Pacific Electronics",
+          "Java Junction Coffee",
+          "CleanPro Dry Cleaners",
+          "FitLife Gym",
+          "Sakura Sushi & Grill",
+          "Milano's Pizza"
+        ],
+        "hazards": [
+          "Cooking"
+        ]
+      },
+      "protection": {
+        "sprinklers": "Wet pipe system",
+        "security_system": "IP-based system with 24 HD cameras, motion sensors, door contacts"
+      },
+      "exposure": {
+        "flood_zone": "Zone X",
+        "earthquake_risk": "High",
+        "flood_insurance_required": false
+      }
+    },
+    {
+      "loc_number": 2,
+      "name": "Marina Del Rey Storefront",
+      "address": {
+        "street": "13455 Maxella Avenue",
+        "city": "Marina del Rey",
+        "state": "CA",
+        "zip_code": "90292"
+      },
+      "interest": {
+        "ownership_status": "Leased",
+        "building_limit": 0.0,
+        "contents_limit": 500000.0,
+        "business_income": null
+      },
+      "construction": {
+        "year_built": 1995,
+        "construction_type": "Type V-B",
+        "roof_type": "Pitched roof with composition shingles",
+        "square_footage": 8500,
+        "stories": 1
+      },
+      "occupancy": {
+        "primary_use": "Single-tenant retail storefront",
+        "tenants": [
+          "N/A"
+        ],
+        "hazards": []
+      },
+      "protection": {
+        "sprinklers": "None",
+        "security_system": "Monitored alarm system with motion detectors and door contacts, video surveillance with 8 cameras"
+      },
+      "exposure": {
+        "flood_zone": "AE",
+        "earthquake_risk": "N/A",
+        "flood_insurance_required": true
+      }
+    },
+    {
+      "loc_number": 3,
+      "name": "Downtown LA Warehouse",
+      "address": {
+        "street": "1829 E 7th Street",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90021"
+      },
+      "interest": {
+        "ownership_status": "Owned",
+        "building_limit": 2800000.0,
+        "contents_limit": 1950000.0,
+        "business_income": null
+      },
+      "construction": {
+        "year_built": 1975,
+        "construction_type": "Type II-B",
+        "roof_type": "Built-up flat roof with gravel ballast over steel deck",
+        "square_footage": 25000,
+        "stories": 1
+      },
+      "occupancy": {
+        "primary_use": "Industrial warehouse/distribution center",
+        "tenants": [
+          "N/A"
+        ],
+        "hazards": [
+          "High Theft Stock"
+        ]
+      },
+      "protection": {
+        "sprinklers": "ESFR system with 85 heads",
+        "security_system": "16-camera IP system, card reader system on all entry doors, perimeter alarm"
+      },
+      "exposure": {
+        "flood_zone": "N/A",
+        "earthquake_risk": "N/A",
+        "flood_insurance_required": false
+      }
+    }
+  ]
+}
