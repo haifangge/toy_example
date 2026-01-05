@@ -1,0 +1,188 @@
+{
+  "summary": {
+    "insured_name": "Precision Engineering Components Limited",
+    "total_insured_locations": 3,
+    "primary_contact_email": "risk.manager@precisioneng.co.uk"
+  },
+  "risk_overview": {
+    "business_description": "A manufacturing company producing precision metal parts and assemblies for the automotive sector, with expertise in CNC machining, stamped parts, and sub-assemblies for leading UK and European car manufacturers.",
+    "date_business_established": "15/03/1987",
+    "ern_number": "ERN/2024/PEC/78432",
+    "holding_insurer": "Aviva",
+    "target_premium": 125000,
+    "renewal_date": "01/04/2025"
+  },
+  "products_and_covers_required": {
+    "property_damage": true,
+    "business_interruption": true,
+    "goods_in_transit": true,
+    "specified_all_risks": true,
+    "terrorism": true,
+    "employers_liability": true,
+    "public_and_products_liability": true,
+    "directors_and_officers": true,
+    "cyber_liability": true
+  },
+  "risk_management": {
+    "has_fulltime_risk_manager": true,
+    "iso_certifications": ["ISO 9001:2015", "IATF 16949:2016", "ISO 14001:2015"],
+    "environmental_management_commitment": "The company operates an Environmental Management System (EMS) accredited to ISO 14001 standard, targeting a 30% reduction in carbon emissions by 2030 and achieving zero waste to landfill by 2027.",
+    "major_contracts": ["Jaguar Land Rover", "Nissan Sunderland", "BMW Mini Oxford"]
+  },
+  "property_damage_cover": {
+    "locations": [
+      {
+        "location_id": 1,
+        "address": "Units 5-7, Riverside Industrial Estate, Birmingham, B12 8QT",
+        "construction_type": "Steel frame construction with composite cladding panels and concrete flooring",
+        "year_built": 1995,
+        "floor_area_sqm": 4500,
+        "occupancy": "Primary manufacturing site - CNC machining, metal stamping, and assembly"
+      },
+      {
+        "location_id": 2,
+        "address": "Building 12, Coventry Business Park, Coventry, CV3 4FJ",
+        "construction_type": "Steel portal frame with insulated metal cladding",
+        "year_built": 2010,
+        "floor_area_sqm": 2750,
+        "occupancy": "Secondary manufacturing facility with quality testing laboratory"
+      },
+      {
+        "location_id": 3,
+        "address": "Warehouse 3, Logistics Centre, Rugby, CV21 1QN",
+        "construction_type": "Concrete block construction with steel roof",
+        "year_built": 2018,
+        "floor_area_sqm": 1500,
+        "occupancy": "Storage and distribution of finished goods"
+      }
+    ],
+    "fire_protection": {
+      "sprinkler_system": true,
+      "sprinkler_details": "Wet sprinkler systems at Birmingham and Coventry locations installed to LPC standards. ESFR sprinkler system at Rugby warehouse.",
+      "smoke_detection": true,
+      "smoke_detection_details": "Addressable fire detection systems installed at all sites linked to central monitoring station",
+      "fire_extinguishers": true,
+      "fire_extinguisher_details": "Appropriate fire extinguishers (CO2 and dry powder) located throughout all premises"
+    },
+    "security": {
+      "monitored_intruder_alarm": true,
+      "intruder_alarm_details": "NSI Gold certified alarm systems with police response at all three sites",
+      "cctv": true,
+      "cctv_details": "Full CCTV coverage across all locations with recordings stored for 30 days",
+      "fencing_and_gated_access": true,
+      "fencing_details": "2.4 metre steel palisade fencing with electronically controlled access gates"
+    },
+    "sums_insured": {
+      "buildings": 8500000,
+      "machinery_and_plant": 11500000,
+      "stock_raw_materials": 2500000,
+      "stock_finished_goods": 3800000,
+      "business_interruption_gross_profit": 15000000,
+      "indemnity_period_months": 24
+    },
+    "loss_history": [
+      {
+        "year": 2023,
+        "incident_type": "Fire",
+        "description": "Small electrical fire in control panel quickly dealt with by employees",
+        "claim_amount": 15000,
+        "status": "Settled"
+      },
+      {
+        "year": 2020,
+        "incident_type": "Water damage",
+        "description": "Pipe burst resulting in damage to inventory and floor surfaces",
+        "claim_amount": 45000,
+        "status": "Settled"
+      }
+    ],
+    "risk_improvements": {
+      "fire_risk_assessment": "External fire risk assessments performed annually - most recent assessment completed October 2024 with all identified actions addressed",
+      "staff_fire_safety_training": "Annual fire awareness training provided to all employees with quarterly evacuation exercises",
+      "preventive_maintenance": "Systematic preventive maintenance schedule for all equipment including weekly checks and annual electrical inspections",
+      "waste_management": "Metal swarf and combustible materials removed daily. External waste storage positioned away from main buildings.",
+      "hot_work_procedures": "Hot work permit system implemented with mandatory fire watch"
+    }
+  },
+  "liability_covers": {
+    "employers_liability": {
+      "total_employees": 180,
+      "total_wageroll": 6800000,
+      "employee_breakdown": [
+        {
+          "activity_type": "Office and administrative",
+          "employee_count": 25,
+          "wageroll": 950000,
+          "risk_description": "Administrative personnel in HR, accounts, and sales departments"
+        },
+        {
+          "activity_type": "CNC machine operations",
+          "employee_count": 85,
+          "wageroll": 3200000,
+          "risk_description": "CNC lathe, milling and grinding machine operators. Machines fully guarded. PPE requirements include safety eyewear and steel-capped footwear."
+        },
+        {
+          "activity_type": "Press shop operations",
+          "employee_count": 35,
+          "wageroll": 1300000,
+          "risk_description": "Press operators and tooling technicians. Safety light guards and dual-hand controls fitted to all press equipment. Regular PUWER compliance checks."
+        },
+        {
+          "activity_type": "Quality assurance",
+          "employee_count": 20,
+          "wageroll": 800000,
+          "risk_description": "Inspection and CMM technicians working in controlled laboratory setting"
+        },
+        {
+          "activity_type": "Logistics and warehousing",
+          "employee_count": 15,
+          "wageroll": 450000,
+          "risk_description": "Forklift drivers and warehouse operatives. All forklift operators hold current certifications. Segregated pedestrian routes in place."
+        }
+      ],
+      "health_and_safety": {
+        "has_h_and_s_manager": true,
+        "accident_reporting_system": "Digital incident reporting with root cause investigation procedures",
+        "ppe_requirements": "PPE requirements defined by task - includes safety spectacles, protective footwear, ear defenders, and task-appropriate gloves",
+        "training_programme": "Full induction for new starters plus yearly refreshers. Specific training provided for all machine operators.",
+        "risk_assessments": "Complete risk assessment documentation updated annually or following any accident"
+      },
+      "limit_of_indemnity": 10000000
+    },
+    "public_and_products_liability": {
+      "product_description": "Precision manufactured metal parts such as brackets, casings, shafts, and gears. Component assemblies including steering and suspension parts produced to customer drawings and specifications.",
+      "end_customers": ["Tier 1 automotive suppliers", "Vehicle OEMs", "Agricultural machinery producers"],
+      "quality_standards": ["IATF 16949:2016", "APQP processes", "PPAP Level 3"],
+      "component_sourcing": {
+        "raw_materials": "Steel and aluminium supplied by UK-based stockholders with full traceability and certification",
+        "bought_in_components": "Standard fasteners and components from UK and European approved suppliers"
+      },
+      "site_access_control": "Visitor sign-in mandatory with safety induction. Hi-vis vests required in factory areas. Manufacturing areas accessible only with escort.",
+      "turnover_breakdown": {
+        "uk": 12500000,
+        "eea": 3500000,
+        "usa_canada": 500000,
+        "rest_of_world": 200000,
+        "total": 16700000
+      },
+      "limit_of_indemnity": 5000000,
+      "product_recall_cover": false
+    },
+    "claims_history": [
+      {
+        "claim_type": "Employers Liability",
+        "year": 2022,
+        "description": "Employee sustained cut to hand from sharp component edge requiring medical treatment",
+        "claim_amount": 3500,
+        "status": "Settled"
+      },
+      {
+        "claim_type": "Employers Liability",
+        "year": 2020,
+        "description": "Worker slipped on wet floor near washroom facilities - lower back strain",
+        "claim_amount": 12000,
+        "status": "Settled"
+      }
+    ]
+  }
+}
