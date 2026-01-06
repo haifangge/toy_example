@@ -1,0 +1,2027 @@
+{
+  "overall_metrics": {
+    "structure_validity": true,
+    "field_coverage": 0.9025641025641026,
+    "exact_match_rate": 0.5257731958762887,
+    "fuzzy_match_rate": 0.7553044332469341,
+    "semantic_similarity": 0.8127997828555563,
+    "llm_judge_score": 0.8127997828555563,
+    "hallucination_rate": 0.005128205128205128
+  },
+  "category_scores": {
+    "property_damage_cover": {
+      "exact_match": 0.5176470588235295,
+      "fuzzy_score": 0.796498445105523,
+      "semantic_score": 0.8643049511198847,
+      "coverage": 0.9294117647058824,
+      "hallucination_count": 0
+    },
+    "liability_covers": {
+      "exact_match": 0.47368421052631576,
+      "fuzzy_score": 0.6902427503619678,
+      "semantic_score": 0.752762969684001,
+      "coverage": 0.8552631578947368,
+      "hallucination_count": 0
+    },
+    "risk_overview": {
+      "exact_match": 0.6666666666666666,
+      "fuzzy_score": 0.8321296923192657,
+      "semantic_score": 0.9024763750651527,
+      "coverage": 1.0,
+      "hallucination_count": 0
+    },
+    "risk_management": {
+      "exact_match": 0.5625,
+      "fuzzy_score": 0.7142560383411236,
+      "semantic_score": 0.7278140413350073,
+      "coverage": 0.875,
+      "hallucination_count": 0
+    },
+    "products_and_covers_required": {
+      "exact_match": 0.875,
+      "fuzzy_score": 0.875,
+      "semantic_score": 0.875,
+      "coverage": 1.0,
+      "hallucination_count": 1
+    },
+    "summary": {
+      "exact_match": 0.6666666666666666,
+      "fuzzy_score": 0.9824561403508771,
+      "semantic_score": 0.9824561403508771,
+      "coverage": 1.0,
+      "hallucination_count": 0
+    }
+  },
+  "missing_fields": [
+    "property_damage_cover.loss_history[2].status",
+    "liability_covers.employers_liability.employee_breakdown[5].wageroll",
+    "liability_covers.employers_liability.employee_breakdown[5].risk_description",
+    "property_damage_cover.loss_history[2].claim_amount",
+    "property_damage_cover.loss_history[2].year",
+    "liability_covers.employers_liability.employee_breakdown[5].employee_count",
+    "liability_covers.claims_history[2].year",
+    "property_damage_cover.loss_history[2].incident_type",
+    "liability_covers.claims_history[2].claim_amount",
+    "risk_management.major_contracts[3]",
+    "liability_covers.claims_history[2].status",
+    "liability_covers.claims_history[2].claim_type",
+    "property_damage_cover.loss_history[2].description",
+    "liability_covers.employers_liability.employee_breakdown[5].activity_type",
+    "liability_covers.claims_history[2].description"
+  ],
+  "hallucinated_fields": [
+    "products_and_covers_required.cyber_liability"
+  ],
+  "field_evaluations": [
+    {
+      "path": "property_damage_cover.locations[0].occupancy",
+      "field_type": "text",
+      "exact_match": false,
+      "fuzzy_score": 0.7866666666666666,
+      "semantic_score": 0.9438515901565552,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "liability_covers.claims_history[0].status",
+      "field_type": "string",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "liability_covers.claims_history[1].year",
+      "field_type": "number",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.loss_history[2].status",
+      "field_type": "string",
+      "exact_match": false,
+      "fuzzy_score": 0.0,
+      "semantic_score": 0.0,
+      "is_missing": true,
+      "is_hallucinated": false,
+      "notes": "Field missing in extraction"
+    },
+    {
+      "path": "property_damage_cover.fire_protection.fire_extinguisher_details",
+      "field_type": "text",
+      "exact_match": false,
+      "fuzzy_score": 0.5380116959064327,
+      "semantic_score": 0.936630368232727,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.locations[0].floor_area_sqm",
+      "field_type": "number",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.locations[1].year_built",
+      "field_type": "number",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "liability_covers.employers_liability.employee_breakdown[3].wageroll",
+      "field_type": "number",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "liability_covers.employers_liability.employee_breakdown[1].activity_type",
+      "field_type": "string",
+      "exact_match": false,
+      "fuzzy_score": 0.5384615384615384,
+      "semantic_score": 0.5384615384615384,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "liability_covers.public_and_products_liability.product_recall_cover",
+      "field_type": "boolean",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "liability_covers.claims_history[1].description",
+      "field_type": "text",
+      "exact_match": false,
+      "fuzzy_score": 0.6222222222222222,
+      "semantic_score": 0.9175661206245422,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "liability_covers.employers_liability.employee_breakdown[4].risk_description",
+      "field_type": "text",
+      "exact_match": false,
+      "fuzzy_score": 0.6302521008403361,
+      "semantic_score": 0.7725421190261841,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.risk_improvements.waste_management",
+      "field_type": "text",
+      "exact_match": false,
+      "fuzzy_score": 0.7004608294930875,
+      "semantic_score": 0.9401960372924805,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.fire_protection.sprinkler_details",
+      "field_type": "text",
+      "exact_match": false,
+      "fuzzy_score": 0.6639676113360324,
+      "semantic_score": 0.9749128818511963,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "liability_covers.claims_history[1].claim_amount",
+      "field_type": "number",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "liability_covers.employers_liability.employee_breakdown[4].activity_type",
+      "field_type": "string",
+      "exact_match": false,
+      "fuzzy_score": 0.375,
+      "semantic_score": 0.375,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "liability_covers.employers_liability.employee_breakdown[4].wageroll",
+      "field_type": "number",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.sums_insured.stock_finished_goods",
+      "field_type": "number",
+      "exact_match": false,
+      "fuzzy_score": 0.9210526315789473,
+      "semantic_score": 0.9210526315789473,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": "Numeric difference: 300000.0 (8.6%)"
+    },
+    {
+      "path": "property_damage_cover.locations[0].construction_type",
+      "field_type": "string",
+      "exact_match": false,
+      "fuzzy_score": 0.8244274809160306,
+      "semantic_score": 0.8244274809160306,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "liability_covers.employers_liability.employee_breakdown[0].employee_count",
+      "field_type": "number",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "risk_overview.renewal_date",
+      "field_type": "date",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": "Dates match (different format)"
+    },
+    {
+      "path": "property_damage_cover.locations[0].year_built",
+      "field_type": "number",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "risk_management.iso_certifications[2]",
+      "field_type": "string",
+      "exact_match": false,
+      "fuzzy_score": 0.5517241379310345,
+      "semantic_score": 0.5517241379310345,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "liability_covers.employers_liability.total_wageroll",
+      "field_type": "number",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "liability_covers.public_and_products_liability.turnover_breakdown.rest_of_world",
+      "field_type": "number",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "liability_covers.employers_liability.limit_of_indemnity",
+      "field_type": "number",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "liability_covers.employers_liability.health_and_safety.risk_assessments",
+      "field_type": "text",
+      "exact_match": false,
+      "fuzzy_score": 0.7354838709677419,
+      "semantic_score": 0.8902382850646973,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.sums_insured.buildings",
+      "field_type": "number",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "liability_covers.employers_liability.employee_breakdown[2].activity_type",
+      "field_type": "string",
+      "exact_match": false,
+      "fuzzy_score": 0.32727272727272727,
+      "semantic_score": 0.32727272727272727,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.loss_history[0].year",
+      "field_type": "number",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "liability_covers.public_and_products_liability.site_access_control",
+      "field_type": "text",
+      "exact_match": false,
+      "fuzzy_score": 0.6111111111111112,
+      "semantic_score": 0.9091603755950928,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "liability_covers.employers_liability.employee_breakdown[5].wageroll",
+      "field_type": "number",
+      "exact_match": false,
+      "fuzzy_score": 0.0,
+      "semantic_score": 0.0,
+      "is_missing": true,
+      "is_hallucinated": false,
+      "notes": "Field missing in extraction"
+    },
+    {
+      "path": "liability_covers.employers_liability.employee_breakdown[5].risk_description",
+      "field_type": "text",
+      "exact_match": false,
+      "fuzzy_score": 0.0,
+      "semantic_score": 0.0,
+      "is_missing": true,
+      "is_hallucinated": false,
+      "notes": "Field missing in extraction"
+    },
+    {
+      "path": "risk_management.iso_certifications[1]",
+      "field_type": "string",
+      "exact_match": false,
+      "fuzzy_score": 0.5517241379310345,
+      "semantic_score": 0.5517241379310345,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "products_and_covers_required.employers_liability",
+      "field_type": "boolean",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "risk_overview.target_premium",
+      "field_type": "number",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "liability_covers.employers_liability.total_employees",
+      "field_type": "number",
+      "exact_match": false,
+      "fuzzy_score": 0.7297297297297297,
+      "semantic_score": 0.7297297297297297,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": "Numeric difference: 5.0 (2.7%)"
+    },
+    {
+      "path": "risk_management.major_contracts[1]",
+      "field_type": "string",
+      "exact_match": false,
+      "fuzzy_score": 0.3125,
+      "semantic_score": 0.3125,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.security.monitored_intruder_alarm",
+      "field_type": "boolean",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "liability_covers.employers_liability.employee_breakdown[1].wageroll",
+      "field_type": "number",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "risk_overview.date_business_established",
+      "field_type": "date",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": "Dates match (different format)"
+    },
+    {
+      "path": "liability_covers.claims_history[0].year",
+      "field_type": "number",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "liability_covers.employers_liability.employee_breakdown[3].activity_type",
+      "field_type": "string",
+      "exact_match": false,
+      "fuzzy_score": 0.5625,
+      "semantic_score": 0.5625,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "liability_covers.claims_history[1].status",
+      "field_type": "string",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.fire_protection.sprinkler_system",
+      "field_type": "boolean",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.risk_improvements.preventive_maintenance",
+      "field_type": "text",
+      "exact_match": false,
+      "fuzzy_score": 0.6337448559670782,
+      "semantic_score": 0.8636106252670288,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "liability_covers.public_and_products_liability.component_sourcing.bought_in_components",
+      "field_type": "string",
+      "exact_match": false,
+      "fuzzy_score": 0.7,
+      "semantic_score": 0.7,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "products_and_covers_required.property_damage",
+      "field_type": "boolean",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "liability_covers.employers_liability.health_and_safety.accident_reporting_system",
+      "field_type": "text",
+      "exact_match": false,
+      "fuzzy_score": 0.59375,
+      "semantic_score": 0.8616379499435425,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.loss_history[2].claim_amount",
+      "field_type": "number",
+      "exact_match": false,
+      "fuzzy_score": 0.0,
+      "semantic_score": 0.0,
+      "is_missing": true,
+      "is_hallucinated": false,
+      "notes": "Field missing in extraction"
+    },
+    {
+      "path": "products_and_covers_required.business_interruption",
+      "field_type": "boolean",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.loss_history[2].year",
+      "field_type": "number",
+      "exact_match": false,
+      "fuzzy_score": 0.0,
+      "semantic_score": 0.0,
+      "is_missing": true,
+      "is_hallucinated": false,
+      "notes": "Field missing in extraction"
+    },
+    {
+      "path": "property_damage_cover.locations[2].location_id",
+      "field_type": "number",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.fire_protection.smoke_detection_details",
+      "field_type": "text",
+      "exact_match": false,
+      "fuzzy_score": 0.7431693989071039,
+      "semantic_score": 0.8766815066337585,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.loss_history[1].status",
+      "field_type": "string",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "liability_covers.claims_history[0].claim_type",
+      "field_type": "string",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "liability_covers.claims_history[1].claim_type",
+      "field_type": "string",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "liability_covers.public_and_products_liability.product_description",
+      "field_type": "text",
+      "exact_match": false,
+      "fuzzy_score": 0.7626262626262627,
+      "semantic_score": 0.9612849354743958,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.sums_insured.business_interruption_gross_profit",
+      "field_type": "number",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "liability_covers.public_and_products_liability.end_customers[1]",
+      "field_type": "string",
+      "exact_match": false,
+      "fuzzy_score": 0.5405405405405406,
+      "semantic_score": 0.5405405405405406,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.loss_history[1].description",
+      "field_type": "text",
+      "exact_match": false,
+      "fuzzy_score": 0.2545454545454545,
+      "semantic_score": 0.6566239595413208,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "liability_covers.public_and_products_liability.turnover_breakdown.eea",
+      "field_type": "number",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "liability_covers.employers_liability.employee_breakdown[5].employee_count",
+      "field_type": "number",
+      "exact_match": false,
+      "fuzzy_score": 0.0,
+      "semantic_score": 0.0,
+      "is_missing": true,
+      "is_hallucinated": false,
+      "notes": "Field missing in extraction"
+    },
+    {
+      "path": "liability_covers.employers_liability.employee_breakdown[4].employee_count",
+      "field_type": "number",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.sums_insured.indemnity_period_months",
+      "field_type": "number",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "liability_covers.claims_history[2].year",
+      "field_type": "number",
+      "exact_match": false,
+      "fuzzy_score": 0.0,
+      "semantic_score": 0.0,
+      "is_missing": true,
+      "is_hallucinated": false,
+      "notes": "Field missing in extraction"
+    },
+    {
+      "path": "property_damage_cover.loss_history[2].incident_type",
+      "field_type": "string",
+      "exact_match": false,
+      "fuzzy_score": 0.0,
+      "semantic_score": 0.0,
+      "is_missing": true,
+      "is_hallucinated": false,
+      "notes": "Field missing in extraction"
+    },
+    {
+      "path": "products_and_covers_required.specified_all_risks",
+      "field_type": "boolean",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "risk_overview.ern_number",
+      "field_type": "string",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "liability_covers.claims_history[2].claim_amount",
+      "field_type": "number",
+      "exact_match": false,
+      "fuzzy_score": 0.0,
+      "semantic_score": 0.0,
+      "is_missing": true,
+      "is_hallucinated": false,
+      "notes": "Field missing in extraction"
+    },
+    {
+      "path": "liability_covers.public_and_products_liability.end_customers[2]",
+      "field_type": "string",
+      "exact_match": false,
+      "fuzzy_score": 0.6176470588235294,
+      "semantic_score": 0.6176470588235294,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.locations[0].address",
+      "field_type": "string",
+      "exact_match": false,
+      "fuzzy_score": 0.9914529914529915,
+      "semantic_score": 0.9914529914529915,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.sums_insured.stock_raw_materials",
+      "field_type": "number",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.locations[2].floor_area_sqm",
+      "field_type": "number",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.risk_improvements.fire_risk_assessment",
+      "field_type": "text",
+      "exact_match": false,
+      "fuzzy_score": 0.6515151515151515,
+      "semantic_score": 0.9416671991348267,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "risk_management.major_contracts[3]",
+      "field_type": "string",
+      "exact_match": false,
+      "fuzzy_score": 0.0,
+      "semantic_score": 0.0,
+      "is_missing": true,
+      "is_hallucinated": false,
+      "notes": "Field missing in extraction"
+    },
+    {
+      "path": "liability_covers.employers_liability.employee_breakdown[2].wageroll",
+      "field_type": "number",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "liability_covers.claims_history[2].status",
+      "field_type": "string",
+      "exact_match": false,
+      "fuzzy_score": 0.0,
+      "semantic_score": 0.0,
+      "is_missing": true,
+      "is_hallucinated": false,
+      "notes": "Field missing in extraction"
+    },
+    {
+      "path": "liability_covers.claims_history[2].claim_type",
+      "field_type": "string",
+      "exact_match": false,
+      "fuzzy_score": 0.0,
+      "semantic_score": 0.0,
+      "is_missing": true,
+      "is_hallucinated": false,
+      "notes": "Field missing in extraction"
+    },
+    {
+      "path": "risk_overview.business_description",
+      "field_type": "text",
+      "exact_match": false,
+      "fuzzy_score": 0.5165876777251185,
+      "semantic_score": 0.9386677742004395,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "liability_covers.employers_liability.employee_breakdown[1].employee_count",
+      "field_type": "number",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.loss_history[0].status",
+      "field_type": "string",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.locations[1].floor_area_sqm",
+      "field_type": "number",
+      "exact_match": false,
+      "fuzzy_score": 0.8214285714285714,
+      "semantic_score": 0.8214285714285714,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": "Numeric difference: 50.0 (1.8%)"
+    },
+    {
+      "path": "property_damage_cover.loss_history[2].description",
+      "field_type": "text",
+      "exact_match": false,
+      "fuzzy_score": 0.0,
+      "semantic_score": 0.0,
+      "is_missing": true,
+      "is_hallucinated": false,
+      "notes": "Field missing in extraction"
+    },
+    {
+      "path": "liability_covers.employers_liability.employee_breakdown[3].risk_description",
+      "field_type": "text",
+      "exact_match": false,
+      "fuzzy_score": 0.2727272727272727,
+      "semantic_score": 0.8748501539230347,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "liability_covers.employers_liability.employee_breakdown[0].risk_description",
+      "field_type": "text",
+      "exact_match": false,
+      "fuzzy_score": 0.45901639344262296,
+      "semantic_score": 0.8193719387054443,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.fire_protection.fire_extinguishers",
+      "field_type": "boolean",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "liability_covers.employers_liability.health_and_safety.has_h_and_s_manager",
+      "field_type": "boolean",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "liability_covers.employers_liability.health_and_safety.ppe_requirements",
+      "field_type": "text",
+      "exact_match": false,
+      "fuzzy_score": 0.17467248908296942,
+      "semantic_score": 0.8852807283401489,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "summary.insured_name",
+      "field_type": "string",
+      "exact_match": false,
+      "fuzzy_score": 0.9473684210526315,
+      "semantic_score": 0.9473684210526315,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "liability_covers.claims_history[0].claim_amount",
+      "field_type": "number",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "risk_management.has_fulltime_risk_manager",
+      "field_type": "boolean",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "liability_covers.employers_liability.employee_breakdown[0].wageroll",
+      "field_type": "number",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "products_and_covers_required.public_and_products_liability",
+      "field_type": "boolean",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "products_and_covers_required.cyber_liability",
+      "field_type": "boolean",
+      "exact_match": false,
+      "fuzzy_score": 0.0,
+      "semantic_score": 0.0,
+      "is_missing": false,
+      "is_hallucinated": true,
+      "notes": "Field not in ground truth (hallucination)"
+    },
+    {
+      "path": "liability_covers.public_and_products_liability.limit_of_indemnity",
+      "field_type": "number",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "summary.total_insured_locations",
+      "field_type": "number",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "liability_covers.employers_liability.health_and_safety.training_programme",
+      "field_type": "text",
+      "exact_match": false,
+      "fuzzy_score": 0.7129629629629629,
+      "semantic_score": 0.8935310244560242,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.loss_history[0].incident_type",
+      "field_type": "string",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "liability_covers.employers_liability.employee_breakdown[5].activity_type",
+      "field_type": "string",
+      "exact_match": false,
+      "fuzzy_score": 0.0,
+      "semantic_score": 0.0,
+      "is_missing": true,
+      "is_hallucinated": false,
+      "notes": "Field missing in extraction"
+    },
+    {
+      "path": "liability_covers.employers_liability.employee_breakdown[0].activity_type",
+      "field_type": "string",
+      "exact_match": false,
+      "fuzzy_score": 0.8076923076923077,
+      "semantic_score": 0.8076923076923077,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.locations[1].construction_type",
+      "field_type": "string",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.loss_history[1].incident_type",
+      "field_type": "string",
+      "exact_match": false,
+      "fuzzy_score": 0.23529411764705882,
+      "semantic_score": 0.23529411764705882,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "liability_covers.public_and_products_liability.quality_standards[0]",
+      "field_type": "string",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.locations[2].address",
+      "field_type": "string",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.locations[2].construction_type",
+      "field_type": "string",
+      "exact_match": false,
+      "fuzzy_score": 0.821917808219178,
+      "semantic_score": 0.821917808219178,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.fire_protection.smoke_detection",
+      "field_type": "boolean",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.locations[2].year_built",
+      "field_type": "number",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.security.cctv_details",
+      "field_type": "text",
+      "exact_match": false,
+      "fuzzy_score": 0.4931506849315068,
+      "semantic_score": 0.9405258297920227,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "products_and_covers_required.goods_in_transit",
+      "field_type": "boolean",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.loss_history[0].description",
+      "field_type": "text",
+      "exact_match": false,
+      "fuzzy_score": 0.704225352112676,
+      "semantic_score": 0.8876813650131226,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "liability_covers.public_and_products_liability.end_customers[0]",
+      "field_type": "string",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "liability_covers.public_and_products_liability.turnover_breakdown.usa_canada",
+      "field_type": "number",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.security.fencing_details",
+      "field_type": "text",
+      "exact_match": false,
+      "fuzzy_score": 0.6622516556291391,
+      "semantic_score": 0.9391433000564575,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "risk_overview.holding_insurer",
+      "field_type": "string",
+      "exact_match": false,
+      "fuzzy_score": 0.47619047619047616,
+      "semantic_score": 0.47619047619047616,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "liability_covers.employers_liability.employee_breakdown[3].employee_count",
+      "field_type": "number",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "liability_covers.employers_liability.employee_breakdown[1].risk_description",
+      "field_type": "text",
+      "exact_match": false,
+      "fuzzy_score": 0.6202090592334495,
+      "semantic_score": 0.952154278755188,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "products_and_covers_required.terrorism",
+      "field_type": "boolean",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.locations[1].occupancy",
+      "field_type": "text",
+      "exact_match": false,
+      "fuzzy_score": 0.7758620689655172,
+      "semantic_score": 0.9727147817611694,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "liability_covers.employers_liability.employee_breakdown[2].employee_count",
+      "field_type": "number",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "liability_covers.public_and_products_liability.turnover_breakdown.total",
+      "field_type": "number",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "liability_covers.public_and_products_liability.component_sourcing.raw_materials",
+      "field_type": "string",
+      "exact_match": false,
+      "fuzzy_score": 0.745945945945946,
+      "semantic_score": 0.745945945945946,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "risk_management.iso_certifications[0]",
+      "field_type": "string",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "liability_covers.public_and_products_liability.turnover_breakdown.uk",
+      "field_type": "number",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.sums_insured.machinery_and_plant",
+      "field_type": "number",
+      "exact_match": false,
+      "fuzzy_score": 0.5833333333333334,
+      "semantic_score": 0.5833333333333334,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": "Numeric difference: 500000.0 (4.2%)"
+    },
+    {
+      "path": "liability_covers.public_and_products_liability.quality_standards[2]",
+      "field_type": "string",
+      "exact_match": false,
+      "fuzzy_score": 0.6666666666666666,
+      "semantic_score": 0.6666666666666666,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "risk_management.major_contracts[2]",
+      "field_type": "string",
+      "exact_match": false,
+      "fuzzy_score": 0.25,
+      "semantic_score": 0.25,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "liability_covers.employers_liability.employee_breakdown[2].risk_description",
+      "field_type": "text",
+      "exact_match": false,
+      "fuzzy_score": 0.7076923076923077,
+      "semantic_score": 0.906006932258606,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "summary.primary_contact_email",
+      "field_type": "string",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "risk_management.environmental_management_commitment",
+      "field_type": "text",
+      "exact_match": false,
+      "fuzzy_score": 0.7621483375959079,
+      "semantic_score": 0.9790763854980469,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.security.fencing_and_gated_access",
+      "field_type": "boolean",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.loss_history[0].claim_amount",
+      "field_type": "number",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.locations[1].location_id",
+      "field_type": "number",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.security.intruder_alarm_details",
+      "field_type": "text",
+      "exact_match": false,
+      "fuzzy_score": 0.6266666666666667,
+      "semantic_score": 0.950385570526123,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.locations[1].address",
+      "field_type": "string",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "products_and_covers_required.directors_and_officers",
+      "field_type": "boolean",
+      "exact_match": false,
+      "fuzzy_score": 0.0,
+      "semantic_score": 0.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": "Boolean mismatch: expected False, got True"
+    },
+    {
+      "path": "liability_covers.public_and_products_liability.quality_standards[1]",
+      "field_type": "string",
+      "exact_match": false,
+      "fuzzy_score": 0.42857142857142855,
+      "semantic_score": 0.42857142857142855,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "liability_covers.claims_history[2].description",
+      "field_type": "text",
+      "exact_match": false,
+      "fuzzy_score": 0.0,
+      "semantic_score": 0.0,
+      "is_missing": true,
+      "is_hallucinated": false,
+      "notes": "Field missing in extraction"
+    },
+    {
+      "path": "property_damage_cover.security.cctv",
+      "field_type": "boolean",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "risk_management.major_contracts[0]",
+      "field_type": "string",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.loss_history[1].claim_amount",
+      "field_type": "number",
+      "exact_match": false,
+      "fuzzy_score": 0.18888888888888888,
+      "semantic_score": 0.18888888888888888,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": "Numeric difference: 36500.0 (429.4%)"
+    },
+    {
+      "path": "property_damage_cover.locations[0].location_id",
+      "field_type": "number",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.locations[2].occupancy",
+      "field_type": "text",
+      "exact_match": false,
+      "fuzzy_score": 0.6153846153846154,
+      "semantic_score": 0.9172598123550415,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.loss_history[1].year",
+      "field_type": "number",
+      "exact_match": false,
+      "fuzzy_score": 0.9950519544779812,
+      "semantic_score": 0.9950519544779812,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": "Numeric difference: 1.0 (0.0%)"
+    },
+    {
+      "path": "property_damage_cover.risk_improvements.staff_fire_safety_training",
+      "field_type": "text",
+      "exact_match": false,
+      "fuzzy_score": 0.45714285714285713,
+      "semantic_score": 0.8962644934654236,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.risk_improvements.hot_work_procedures",
+      "field_type": "text",
+      "exact_match": false,
+      "fuzzy_score": 0.6771653543307087,
+      "semantic_score": 0.9666652679443359,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "liability_covers.claims_history[0].description",
+      "field_type": "text",
+      "exact_match": false,
+      "fuzzy_score": 0.4563758389261745,
+      "semantic_score": 0.8244622945785522,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "risk_management.iso_certifications[]",
+      "field_type": "string",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "risk_management.iso_certifications[]",
+      "field_type": "string",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "risk_management.iso_certifications[]",
+      "field_type": "string",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "risk_management.major_contracts[]",
+      "field_type": "string",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "risk_management.major_contracts[]",
+      "field_type": "string",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "risk_management.major_contracts[]",
+      "field_type": "string",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "risk_management.major_contracts[]",
+      "field_type": "string",
+      "exact_match": false,
+      "fuzzy_score": 0.0,
+      "semantic_score": 0.0,
+      "is_missing": true,
+      "is_hallucinated": false,
+      "notes": "Array item missing: Toyota Burnaston"
+    },
+    {
+      "path": "property_damage_cover.locations[0].location_id",
+      "field_type": "number",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.locations[0].address",
+      "field_type": "string",
+      "exact_match": false,
+      "fuzzy_score": 0.9914529914529915,
+      "semantic_score": 0.9914529914529915,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.locations[0].construction_type",
+      "field_type": "string",
+      "exact_match": false,
+      "fuzzy_score": 0.8244274809160306,
+      "semantic_score": 0.8244274809160306,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.locations[0].year_built",
+      "field_type": "number",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.locations[0].floor_area_sqm",
+      "field_type": "number",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.locations[0].occupancy",
+      "field_type": "text",
+      "exact_match": false,
+      "fuzzy_score": 0.7866666666666666,
+      "semantic_score": 0.9438515901565552,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.locations[1].location_id",
+      "field_type": "number",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.locations[1].address",
+      "field_type": "string",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.locations[1].construction_type",
+      "field_type": "string",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.locations[1].year_built",
+      "field_type": "number",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.locations[1].floor_area_sqm",
+      "field_type": "number",
+      "exact_match": false,
+      "fuzzy_score": 0.8214285714285714,
+      "semantic_score": 0.8214285714285714,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": "Numeric difference: 50.0 (1.8%)"
+    },
+    {
+      "path": "property_damage_cover.locations[1].occupancy",
+      "field_type": "text",
+      "exact_match": false,
+      "fuzzy_score": 0.7758620689655172,
+      "semantic_score": 0.9727147817611694,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.locations[2].location_id",
+      "field_type": "number",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.locations[2].address",
+      "field_type": "string",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.locations[2].construction_type",
+      "field_type": "string",
+      "exact_match": false,
+      "fuzzy_score": 0.821917808219178,
+      "semantic_score": 0.821917808219178,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.locations[2].year_built",
+      "field_type": "number",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.locations[2].floor_area_sqm",
+      "field_type": "number",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.locations[2].occupancy",
+      "field_type": "text",
+      "exact_match": false,
+      "fuzzy_score": 0.6153846153846154,
+      "semantic_score": 0.9172598123550415,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.loss_history[0].year",
+      "field_type": "number",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.loss_history[0].incident_type",
+      "field_type": "string",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.loss_history[0].description",
+      "field_type": "text",
+      "exact_match": false,
+      "fuzzy_score": 0.704225352112676,
+      "semantic_score": 0.8876813650131226,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.loss_history[0].claim_amount",
+      "field_type": "number",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.loss_history[0].status",
+      "field_type": "string",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.loss_history[2].year",
+      "field_type": "number",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.loss_history[2].incident_type",
+      "field_type": "string",
+      "exact_match": false,
+      "fuzzy_score": 0.37037037037037035,
+      "semantic_score": 0.37037037037037035,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.loss_history[2].description",
+      "field_type": "text",
+      "exact_match": false,
+      "fuzzy_score": 0.6238532110091743,
+      "semantic_score": 0.9271537065505981,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.loss_history[2].claim_amount",
+      "field_type": "number",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.loss_history[2].status",
+      "field_type": "string",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "property_damage_cover.loss_history[1]",
+      "field_type": "object",
+      "exact_match": false,
+      "fuzzy_score": 0.0,
+      "semantic_score": 0.0,
+      "is_missing": true,
+      "is_hallucinated": false,
+      "notes": "Array item missing in extraction"
+    },
+    {
+      "path": "liability_covers.claims_history[0].claim_type",
+      "field_type": "string",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "liability_covers.claims_history[0].year",
+      "field_type": "number",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "liability_covers.claims_history[0].description",
+      "field_type": "text",
+      "exact_match": false,
+      "fuzzy_score": 0.4563758389261745,
+      "semantic_score": 0.8244622945785522,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "liability_covers.claims_history[0].claim_amount",
+      "field_type": "number",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "liability_covers.claims_history[0].status",
+      "field_type": "string",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "liability_covers.claims_history[0].claim_type",
+      "field_type": "string",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "liability_covers.claims_history[0].year",
+      "field_type": "number",
+      "exact_match": false,
+      "fuzzy_score": 0.990108803165183,
+      "semantic_score": 0.990108803165183,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": "Numeric difference: 2.0 (0.1%)"
+    },
+    {
+      "path": "liability_covers.claims_history[0].description",
+      "field_type": "text",
+      "exact_match": false,
+      "fuzzy_score": 0.32116788321167883,
+      "semantic_score": 0.5956328511238098,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "liability_covers.claims_history[0].claim_amount",
+      "field_type": "number",
+      "exact_match": false,
+      "fuzzy_score": 0.29166666666666663,
+      "semantic_score": 0.29166666666666663,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": "Numeric difference: 8500.0 (242.9%)"
+    },
+    {
+      "path": "liability_covers.claims_history[0].status",
+      "field_type": "string",
+      "exact_match": true,
+      "fuzzy_score": 1.0,
+      "semantic_score": 1.0,
+      "is_missing": false,
+      "is_hallucinated": false,
+      "notes": ""
+    },
+    {
+      "path": "liability_covers.claims_history[1]",
+      "field_type": "object",
+      "exact_match": false,
+      "fuzzy_score": 0.0,
+      "semantic_score": 0.0,
+      "is_missing": true,
+      "is_hallucinated": false,
+      "notes": "Array item missing in extraction"
+    },
+    {
+      "path": "liability_covers.claims_history[2]",
+      "field_type": "object",
+      "exact_match": false,
+      "fuzzy_score": 0.0,
+      "semantic_score": 0.0,
+      "is_missing": true,
+      "is_hallucinated": false,
+      "notes": "Array item missing in extraction"
+    }
+  ]
+}
