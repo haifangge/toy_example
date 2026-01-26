@@ -1,0 +1,382 @@
+{
+  "submission": {
+    "intro_page": {
+      "broker_name": "Pemberton Risk Solutions Ltd",
+      "broker_logo": "[PEMBERTON RISK SOLUTIONS LOGO]",
+      "broker_contact": {
+        "address": "Charter House, 23 Cannon Street, London EC4M 5HE",
+        "phone": "+44 (0)20 7936 4500",
+        "email": "submissions@pembertonrisk.co.uk",
+        "contact_person": "Sarah Mitchell, Senior Account Executive",
+        "contact_email": "s.mitchell@pembertonrisk.co.uk",
+        "contact_phone": "+44 (0)20 7936 4523"
+      },
+      "submission_title": "Broking Submission for Precision Components Manufacturing Ltd",
+      "date_of_submission": "15th January 2026",
+      "renewal_date": "1st March 2026"
+    },
+    "risk_overview": {
+      "introduction": "Pemberton Risk Solutions is pleased to present this renewal submission for Precision Components Manufacturing Ltd, a well-established and expertly managed precision engineering business. We have represented this client for the past eight years, during which time they have demonstrated exceptional risk management practices and maintained a near loss-free claims record. The risk is being marketed to secure competitive terms at renewal and to explore enhanced coverage options in line with the company's recent expansion into their new facility in Nottingham.\n\nPrecision Components Manufacturing Ltd operates as a respected supplier of high-precision machined components to the automotive and aerospace sectors. Their commitment to quality, evidenced by multiple ISO certifications and long-standing blue-chip client relationships, positions them as an exemplary manufacturing risk. The business has invested significantly in modern machinery, fire protection systems, and comprehensive staff training programmes.",
+      "business_description": "Manufacturer of precision-engineered metal components for automotive and aerospace industries, specialising in CNC machining, turning, and grinding operations",
+      "date_established": "1987",
+      "ern_number": "ERN-2847365-UK",
+      "holding_insurer": "AXA Insurance UK plc",
+      "target_premium": "£47,500 (all covers combined)",
+      "renewal_date": "1st March 2026"
+    },
+    "products_and_covers_required": {
+      "covers": [
+        {
+          "cover_type": "Property Damage",
+          "limit": "All Risks basis"
+        },
+        {
+          "cover_type": "Business Interruption",
+          "limit": "12 months indemnity period"
+        },
+        {
+          "cover_type": "Goods in Transit",
+          "limit": "£100,000 any one conveyance"
+        },
+        {
+          "cover_type": "Specified All Risks",
+          "limit": "£50,000"
+        },
+        {
+          "cover_type": "Terrorism",
+          "limit": "As Property Damage"
+        },
+        {
+          "cover_type": "Employers Liability",
+          "limit": "£10,000,000 Limit of Indemnity"
+        },
+        {
+          "cover_type": "Public and Products Liability",
+          "limit": "£5,000,000 Limit of Indemnity, Products Liability included"
+        },
+        {
+          "cover_type": "Directors and Officers",
+          "limit": "£2,000,000 Limit of Indemnity"
+        }
+      ]
+    },
+    "risk_management": {
+      "summary": "Precision Components Manufacturing Ltd demonstrates exemplary risk management across all operational areas. The business benefits from highly experienced senior management with an average tenure of 15 years, ensuring continuity and deep operational knowledge.",
+      "key_features": [
+        "Full-time Health, Safety & Risk Manager (NEBOSH Diploma qualified) appointed since 2018",
+        "ISO 9001:2015 (Quality Management) certified since 1995",
+        "ISO 14001:2015 (Environmental Management) certified since 2012",
+        "ISO 45001:2018 (Occupational Health & Safety) certified since 2020",
+        "Long-standing contracts with Tier 1 automotive suppliers including Jaguar Land Rover and BMW UK",
+        "Approved supplier status with Rolls-Royce Aerospace division since 2005",
+        "Annual third-party risk assessments conducted by Marsh Risk Consulting",
+        "Comprehensive business continuity plan tested annually",
+        "Investment of £2.1m in new CNC machinery and fire protection systems over past 3 years"
+      ]
+    },
+    "property_damage_cover": {
+      "locations": [
+        {
+          "location_name": "Main Manufacturing Facility",
+          "location_details": {
+            "address": "Parkway Industrial Estate, Units 5-7 Stephenson Road, Birmingham B26 3QJ",
+            "construction_type": "Steel portal frame, brick and blockwork walls with part composite insulated cladding panels, concrete ground floor, pitched steel roof with mineral felt covering",
+            "year_built": "1995 (refurbished 2018)",
+            "floor_area": "4,800 sq metres",
+            "occupancy": "70% manufacturing (CNC machining, turning, grinding), 20% storage of raw materials and finished goods, 10% offices and welfare facilities"
+          },
+          "fire_protection": {
+            "sprinkler_system": "Automatic sprinkler system installed throughout manufacturing and storage areas (LPC compliant, installed 2018)",
+            "smoke_detection": "Addressable smoke detection system throughout with direct link to Chubb monitoring station",
+            "fire_extinguishers": "CO2 and foam extinguishers serviced annually by Chubb Fire Ltd",
+            "additional": "Fire hydrants located at 50m intervals around perimeter, Emergency lighting throughout, Fire alarm tested weekly"
+          },
+          "security": {
+            "intruder_alarm": "Monitored intruder alarm system (NSI Gold standard) with direct link to ADT monitoring",
+            "cctv": "32-camera CCTV system covering all access points, loading bays and perimeter, with 30-day recording",
+            "physical_security": "2.4m perimeter fencing with secure gated access, Automatic barriers with key fob entry, Security lighting covering all external areas",
+            "access_control": "Biometric access control on main entrance and machinery areas"
+          }
+        },
+        {
+          "location_name": "Nottingham Distribution Centre",
+          "location_details": {
+            "address": "Phoenix Business Park, Unit 14 Castle Boulevard, Nottingham NG7 1FW",
+            "construction_type": "Steel frame construction, insulated composite panel walls and roof, concrete floor with epoxy resin coating",
+            "year_built": "2022",
+            "floor_area": "1,500 sq metres",
+            "occupancy": "85% storage and distribution of finished components, 15% quality control and packing operations"
+          },
+          "fire_protection": {
+            "sprinkler_system": "Automatic sprinkler system (BS EN 12845:2015 compliant) covering entire building",
+            "smoke_detection": "Aspirating smoke detection system with ADT monitoring",
+            "fire_extinguishers": "CO2 and water mist extinguishers serviced annually",
+            "additional": "Fire-rated compartmentation between storage and packing areas, Manual call points at all exits"
+          },
+          "security": {
+            "intruder_alarm": "Monitored intruder alarm (NSI Gold) linked to ADT central station",
+            "cctv": "16-camera IP CCTV system with thermal imaging on loading bay",
+            "physical_security": "2.4m palisade fencing with automated entrance gates, Roller shutter doors on loading bays with key switch operation",
+            "access_control": "Key fob access control system with audit trail"
+          }
+        },
+        {
+          "location_name": "Head Office",
+          "location_details": {
+            "address": "Regency House, 25-27 Colmore Row, Birmingham B3 2BS",
+            "construction_type": "Brick construction office building (multi-tenancy), concrete floors, pitched tiled roof",
+            "year_built": "1968",
+            "floor_area": "350 sq metres (3rd floor suite)",
+            "occupancy": "100% office use - finance, sales, procurement and senior management"
+          },
+          "fire_protection": {
+            "sprinkler_system": "Building has automatic sprinkler system (managed by landlord)",
+            "smoke_detection": "Smoke detection throughout suite linked to building alarm system",
+            "fire_extinguishers": "CO2 extinguishers in office suite, serviced annually",
+            "additional": "Building fire alarm tested weekly by managing agent, Two fire escape routes available"
+          },
+          "security": {
+            "intruder_alarm": "Monitored intruder alarm covering office suite",
+            "cctv": "Building CCTV managed by landlord covering common areas",
+            "physical_security": "Manned reception during business hours (building level), Electronic door entry system on suite entrance",
+            "access_control": "Key fob access to office suite"
+          }
+        }
+      ],
+      "sums_insured": {
+        "locations": [
+          {
+            "location": "Birmingham - Main Manufacturing Facility",
+            "buildings": "£5,800,000 (Day One uplift 15%)",
+            "machinery_and_plant": "£3,400,000",
+            "stock_raw_materials": "£520,000",
+            "stock_finished_goods": "£780,000",
+            "office_equipment_and_contents": "£120,000",
+            "business_interruption_gross_profit": "£4,200,000 for 12 months indemnity period"
+          },
+          {
+            "location": "Nottingham - Distribution Centre",
+            "buildings": "£2,100,000 (Day One uplift 15%)",
+            "machinery_and_plant": "£180,000",
+            "stock_raw_materials": "£0",
+            "stock_finished_goods": "£940,000",
+            "office_equipment_and_contents": "£35,000",
+            "business_interruption_gross_profit": "£800,000 for 12 months indemnity period"
+          },
+          {
+            "location": "Birmingham - Head Office",
+            "buildings": "Tenant's improvements only: £75,000",
+            "machinery_and_plant": "£0",
+            "stock_raw_materials": "£0",
+            "stock_finished_goods": "£0",
+            "office_equipment_and_contents": "£95,000",
+            "business_interruption_gross_profit": "Included in main facility figure"
+          }
+        ],
+        "total_sums_insured": {
+          "total_buildings": "£8,050,000",
+          "total_machinery_and_plant": "£3,580,000",
+          "total_stock": "£2,240,000",
+          "total_contents": "£250,000",
+          "total_business_interruption": "£5,000,000"
+        }
+      },
+      "loss_history_past_5_years": [
+        {
+          "year": "2021",
+          "description": "Minor water damage from leaking roof joint at Birmingham facility during storm",
+          "amount_paid": "£8,450",
+          "status": "Fully repaired, roof maintenance programme enhanced, no recurrence"
+        },
+        {
+          "year": "2022",
+          "description": "Theft of copper cable from external compound at Birmingham facility",
+          "amount_paid": "£3,200",
+          "status": "CCTV upgraded, additional security lighting installed"
+        },
+        {
+          "year": "2023",
+          "description": "Minor fire in electrical control panel - CNC machine",
+          "amount_paid": "£12,800",
+          "status": "Panel replaced, thermal imaging survey of all electrical systems completed, enhanced maintenance schedule implemented"
+        },
+        {
+          "year": "2024",
+          "description": "No claims",
+          "amount_paid": "£0",
+          "status": "N/A"
+        },
+        {
+          "year": "2025",
+          "description": "No claims to date",
+          "amount_paid": "£0",
+          "status": "N/A"
+        }
+      ],
+      "total_claims_5_years": "£24,450"
+    },
+    "risk_management_and_improvements": {
+      "ongoing_measures": [
+        "Quarterly fire risk assessments conducted by Aon Fire Risk Assessment Services (CFPA Europe qualified assessors)",
+        "All staff receive fire safety training during induction with 6-monthly refresher sessions",
+        "Hot work permit system strictly enforced for all maintenance and contractor activities",
+        "Comprehensive preventive maintenance schedule for all machinery with automated service reminders via CMMS system",
+        "Monthly housekeeping inspections with action tracking and management oversight",
+        "Annual thermographic surveys of all electrical installations and machinery",
+        "Business continuity plan reviewed and tested annually with desktop exercise",
+        "Cyber security measures including firewall, endpoint protection and staff awareness training"
+      ],
+      "waste_management": "Metal swarf and waste stored in designated external bins away from buildings; collection by licensed waste contractor twice weekly; segregated waste streams for recycling",
+      "recent_improvements_2024_2025": [
+        "Installation of aspirating smoke detection system at Nottingham facility (£45,000 investment)",
+        "Upgrade of sprinkler system at Birmingham facility to LPC standards (£180,000 investment)",
+        "Implementation of predictive maintenance system using IoT sensors on critical machinery (£65,000 investment)",
+        "Enhanced perimeter security including thermal imaging CCTV at Nottingham (£28,000 investment)",
+        "Completion of ISO 45001:2018 certification process",
+        "Installation of automatic fire suppression system in main electrical switch room (£22,000 investment)"
+      ]
+    },
+    "liability_covers": {
+      "employers_liability": {
+        "description": "Precision Components Manufacturing Ltd employs 127 full-time equivalent staff across its three locations. The workforce is stable with low turnover, and average length of service exceeds 8 years. All manufacturing staff complete comprehensive induction training including machinery operation, health and safety procedures, and emergency response protocols. The company maintains an excellent health and safety record with zero RIDDOR reportable incidents in the past 3 years.",
+        "risk_management": [
+          "Full-time HSE Manager (NEBOSH Diploma qualified) with support from external HSE consultant (quarterly visits)",
+          "All machinery fitted with appropriate guarding to latest CE/UKCA standards",
+          "Machine-specific risk assessments for all operations reviewed annually",
+          "Comprehensive PPE policy with free provision of safety boots, glasses, gloves and hearing protection",
+          "Annual hearing tests and health surveillance for at-risk workers",
+          "Manual handling training for all relevant staff",
+          "Near-miss reporting system with investigation and corrective action process",
+          "Safety committee meets monthly with employee representatives",
+          "Regular safety audits and inspections with action tracking",
+          "Occupational health service available including physiotherapy and mental health support"
+        ],
+        "wageroll_breakdown": [
+          {
+            "category": "Clerical/Administrative",
+            "number_of_employees": 18,
+            "annual_wageroll": "£648,000",
+            "description": "Office-based staff including finance, sales, procurement, HR and management"
+          },
+          {
+            "category": "Manufacturing - CNC Operators",
+            "number_of_employees": 54,
+            "annual_wageroll": "£1,836,000",
+            "description": "CNC machine operators, setters and programmers working in controlled manufacturing environment"
+          },
+          {
+            "category": "Manufacturing - Manual Machinists",
+            "number_of_employees": 22,
+            "annual_wageroll": "£726,000",
+            "description": "Manual lathe and grinding machine operators, toolmakers"
+          },
+          {
+            "category": "Quality Control/Inspection",
+            "number_of_employees": 12,
+            "annual_wageroll": "£432,000",
+            "description": "Quality inspectors and CMM programmers"
+          },
+          {
+            "category": "Warehouse/Distribution",
+            "number_of_employees": 14,
+            "annual_wageroll": "£392,000",
+            "description": "Forklift drivers, goods-in/out operatives, packing staff"
+          },
+          {
+            "category": "Maintenance Engineers",
+            "number_of_employees": 7,
+            "annual_wageroll": "£280,000",
+            "description": "Electrical and mechanical maintenance engineers"
+          }
+        ],
+        "total_wageroll": "£4,314,000",
+        "total_employees": 127
+      },
+      "public_and_products_liability": {
+        "description": "Precision Components Manufacturing Ltd produces high-precision machined metal components primarily for the automotive and aerospace sectors. Products are manufactured to exact customer specifications with rigorous quality control at each production stage. The company holds Tier 1 approved supplier status with major automotive OEMs and aerospace manufacturers, requiring compliance with demanding quality standards. All finished components are inspected using coordinate measuring machines (CMM) and certified before dispatch.",
+        "product_details": [
+          "Products: Precision machined components including shafts, housings, gears and bespoke parts manufactured from steel, aluminium and specialist alloys",
+          "End customers: Primarily Tier 1 automotive suppliers (Jaguar Land Rover, BMW UK, ZF Friedrichshafen) and aerospace companies (Rolls-Royce, GKN Aerospace, Collins Aerospace)",
+          "Quality standards: ISO 9001:2015, IATF 16949:2016 (automotive), AS9100 Rev D (aerospace)",
+          "Product testing: 100% dimensional inspection, material traceability, first article inspection protocols, documented inspection records retained for 10 years"
+        ],
+        "supply_chain": [
+          "Raw materials: 85% sourced from UK and European steel stockholders (British Steel, Tata Steel, Thyssenkrupp), 15% from specialist alloy suppliers",
+          "All materials supplied with mill certificates and material traceability",
+          "Approved supplier list maintained with annual supplier audits for critical materials",
+          "No products sourced from outside EEA"
+        ],
+        "site_access_control": [
+          "Visitor sign-in procedure with safety induction and PPE provision",
+          "Designated visitor walkways separated from manufacturing areas",
+          "Contractor permit to work system for all maintenance activities",
+          "Loading bay segregation from pedestrian areas"
+        ],
+        "turnover_breakdown_by_territory": [
+          {
+            "territory": "United Kingdom",
+            "annual_turnover": "£14,200,000",
+            "percentage": "71%"
+          },
+          {
+            "territory": "European Economic Area",
+            "annual_turnover": "£4,800,000",
+            "percentage": "24%"
+          },
+          {
+            "territory": "United States",
+            "annual_turnover": "£800,000",
+            "percentage": "4%"
+          },
+          {
+            "territory": "Rest of World",
+            "annual_turnover": "£200,000",
+            "percentage": "1%"
+          }
+        ],
+        "total_annual_turnover": "£20,000,000"
+      },
+      "liability_claims_history_5_years": [
+        {
+          "year": "2020",
+          "claim_type": "Employers Liability",
+          "description": "Minor hand injury to machine operator - caught finger on edge of workpiece during loading",
+          "amount_paid": "£2,800",
+          "status": "Settled. Additional guarding installed, procedure revised. Employee returned to work after 2 weeks"
+        },
+        {
+          "year": "2021",
+          "claim_type": "Employers Liability",
+          "description": "Slip on wet floor in welfare area",
+          "amount_paid": "£1,200",
+          "status": "Settled. Enhanced cleaning schedule and wet floor signage implemented"
+        },
+        {
+          "year": "2021",
+          "claim_type": "Public Liability",
+          "description": "Visitor tripped on uneven surface in car park",
+          "amount_paid": "£3,500",
+          "status": "Settled. Car park resurfaced in 2022"
+        },
+        {
+          "year": "2022-2025",
+          "claim_type": "All",
+          "description": "No claims",
+          "amount_paid": "£0",
+          "status": "N/A"
+        }
+      ],
+      "total_liability_claims_5_years": "£7,500",
+      "liability_claims_summary": "Excellent claims history with only three minor claims in past 5 years, all promptly addressed with corrective actions. No products liability claims ever recorded. No outstanding or intimated claims."
+    },
+    "additional_information": {
+      "key_contacts": {
+        "insured_company_contact": "Mr James Patterson, Finance Director",
+        "insured_phone": "+44 (0)121 472 8800",
+        "insured_email": "j.patterson@precisioncomponents.co.uk"
+      },
+      "broker_recommendation": "Pemberton Risk Solutions strongly recommends this risk as an excellent manufacturing account. The insured demonstrates exemplary risk management, maintains comprehensive safety and quality systems, and has an outstanding claims history. The recent investments in fire protection and security further enhance the quality of this risk. We recommend competitive terms reflecting the quality of this account.",
+      "marketing_notes": "This submission is being presented to a select panel of quality insurers. The expiring premium is £46,800. We are seeking competitive quotations to include long-term agreement consideration. The insured is open to consideration of increased deductibles for improved terms."
+    }
+  }
+}

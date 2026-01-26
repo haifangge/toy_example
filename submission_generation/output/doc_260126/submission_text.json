@@ -1,0 +1,243 @@
+{
+  "submission_header": {
+    "broker_details": {
+      "broker_name": "Summit Risk Partners LLP",
+      "logo_placeholder": "[Summit Risk Partners Logo]",
+      "contact_person": "Sarah Jenkins, Senior Corporate Broker",
+      "contact_email": "s.jenkins@summitrisk.co.uk",
+      "contact_phone": "+44 (0) 20 7946 0123"
+    },
+    "insured_details": {
+      "company_name": "Titan Automotive Components Ltd",
+      "submission_title": "Broking Submission for Titan Automotive Components Ltd"
+    },
+    "dates": {
+      "date_of_submission": "2025-09-15",
+      "renewal_date": "2025-10-30"
+    }
+  },
+  "risk_overview": {
+    "introduction": "Summit Risk Partners is pleased to present the renewal submission for Titan Automotive Components Ltd. Titan has been a client of Summit for 12 years and represents a highly desirable, well-managed risk. The business has shown consistent profitability and a strong commitment to risk management, with significant capital expenditure in fire suppression and automated machinery over the last 3 years.",
+    "business_details": {
+      "description": "Precision manufacturer of aluminium die-cast components for the automotive and aerospace sectors.",
+      "date_established": "1998",
+      "ern_number": "123/AB45678",
+      "holding_insurer": "Allianz Insurance plc",
+      "target_premium": "£145,000 + IPT",
+      "renewal_date": "2025-10-30"
+    }
+  },
+  "products_and_covers_required": [
+    {
+      "cover": "Property Damage - All Risks",
+      "limit": "Per schedule of sums insured"
+    },
+    {
+      "cover": "Business Interruption",
+      "limit": "£6,500,000 (24 Months Indemnity)"
+    },
+    {
+      "cover": "Goods in Transit",
+      "limit": "£100,000 any one vehicle"
+    },
+    {
+      "cover": "Terrorism",
+      "limit": "Full Value"
+    },
+    {
+      "cover": "Employers Liability",
+      "limit": "£10,000,000 LOI"
+    },
+    {
+      "cover": "Public and Products Liability",
+      "limit": "£10,000,000 LOI"
+    },
+    {
+      "cover": "Directors and Officers",
+      "limit": "£2,000,000 LOI"
+    },
+    {
+      "cover": "Cyber Liability",
+      "limit": "£1,000,000 LOI"
+    }
+  ],
+  "risk_management_overview": {
+    "management_narrative": "Titan Automotive maintains a 'safety-first' culture driven by the Operations Director. They employ a full-time NEBOSH-qualified Health & Safety Manager who conducts weekly site audits. The business holds ISO 9001 (Quality), ISO 14001 (Environmental), and IATF 16949 (Automotive Quality) certifications. They have long-standing Tier-2 supply contracts with Jaguar Land Rover and Nissan, necessitating rigorous business continuity planning.",
+    "key_features": [
+      "Full-time NEBOSH qualified Risk Manager employed.",
+      "ISO 9001, ISO 14001, and IATF 16949 certified.",
+      "Zero waste-to-landfill policy implemented in 2023.",
+      "Strict hot work permit system in place."
+    ]
+  },
+  "property_damage_cover": {
+    "locations": [
+      {
+        "location_id": 1,
+        "name": "Headquarters & Primary Manufacturing",
+        "address": "Unit 5-7, Stafford Park, Telford, TF3 3BQ",
+        "construction": "Steel portal frame, insulated composite panel walls (LPCB approved), reinforced concrete floor, pitched steel roof with 10% roof lights. Built 2010.",
+        "floor_area": "4,500 sq meters",
+        "occupancy": "Administrative offices, CNC machining, die-casting, and finished goods storage.",
+        "fire_protection": {
+          "sprinklers": "Full automatic sprinkler system (BS EN 12845 OH3) serviced bi-annually.",
+          "detection": "Analogue addressable smoke detection throughout, linked to ARC.",
+          "extinguishers": "FPA compliant, serviced annually."
+        },
+        "security": {
+          "intruder_alarm": "Honeywell Galaxy Dimension, NSI Gold monitored, dual-path signalling (Redcare).",
+          "cctv": "IP CCTV system covering all external doors and perimeter, 30-day recording.",
+          "perimeter": "2.4m Palisade fencing, electric gated access with ANPR."
+        }
+      },
+      {
+        "location_id": 2,
+        "name": "Distribution Warehouse",
+        "address": "Plot 4, Halesfield Industrial Estate, Telford, TF7 4LP",
+        "construction": "Steel frame, brick/block dwarf walls to 2m with single skin metal cladding above. Built 1995.",
+        "floor_area": "2,000 sq meters",
+        "occupancy": "Storage of raw materials (aluminium ingots) and packaging.",
+        "fire_protection": {
+          "sprinklers": "None.",
+          "detection": "Beam detectors in warehouse, point detection in offices.",
+          "extinguishers": "Serviced annually."
+        },
+        "security": {
+          "intruder_alarm": "NSI Gold monitored alarm.",
+          "cctv": "Internal and external cameras.",
+          "perimeter": "Shared yard with lockable gates."
+        }
+      },
+      {
+        "location_id": 3,
+        "name": "R&D Facility",
+        "address": "Unit 12, Wolverhampton Science Park, WV10 9RU",
+        "construction": "Modern brick and glass office unit. Built 2018.",
+        "floor_area": "500 sq meters",
+        "occupancy": "Design studio, 3D printing, light assembly for prototyping.",
+        "fire_protection": {
+          "sprinklers": "None.",
+          "detection": "Smoke and heat detection throughout.",
+          "extinguishers": "Serviced annually."
+        },
+        "security": {
+          "intruder_alarm": "Monitored alarm.",
+          "cctv": "Main entrance coverage.",
+          "perimeter": "Park security."
+        }
+      }
+    ],
+    "sums_insured_breakdown": [
+      {
+        "location_id": 1,
+        "buildings_declared_value": "£5,500,000",
+        "day_one_uplift": "25%",
+        "machinery_and_plant": "£4,200,000",
+        "stock_raw": "£250,000",
+        "stock_finished": "£800,000",
+        "bi_gross_profit": "£5,000,000"
+      },
+      {
+        "location_id": 2,
+        "buildings_declared_value": "£2,100,000",
+        "day_one_uplift": "20%",
+        "machinery_and_plant": "£150,000",
+        "stock_raw": "£600,000",
+        "stock_finished": "£100,000",
+        "bi_gross_profit": "£1,000,000"
+      },
+      {
+        "location_id": 3,
+        "buildings_declared_value": "Tenant's Improvements £150,000",
+        "day_one_uplift": "N/A",
+        "machinery_and_plant": "£650,000 (High precision 3D printers)",
+        "stock_raw": "£20,000",
+        "stock_finished": "£0",
+        "bi_gross_profit": "£500,000"
+      }
+    ],
+    "loss_history": [
+      {
+        "year": "2023",
+        "details": "Theft of copper cabling from external yard (Location 2).",
+        "amount": "£6,500",
+        "status": "Settled. Security upgraded to include motion-activated lighting."
+      },
+      {
+        "year": "2021",
+        "details": "Storm damage to roof lights (Location 1).",
+        "amount": "£3,200",
+        "status": "Settled. Roof fully inspected and maintained."
+      },
+      {
+        "year": "2020",
+        "details": "None",
+        "amount": "£0",
+        "status": "-"
+      },
+      {
+        "year": "2019",
+        "details": "None",
+        "amount": "£0",
+        "status": "-"
+      },
+      {
+        "year": "2018",
+        "details": "None",
+        "amount": "£0",
+        "status": "-"
+      }
+    ]
+  },
+  "risk_improvements_and_prevention": {
+    "activities": [
+      "Annual Fire Risk Assessment (FRA) conducted by external consultant (last completed July 2025).",
+      "Thermographic imaging survey of all electrical distribution boards conducted annually.",
+      "Weekly fire alarm testing and bi-annual evacuation drills.",
+      "Comprehensive preventive maintenance schedule for CNC machines and die-casters.",
+      "Metal waste stored in lockable skips, 10m from building line, collected weekly."
+    ]
+  },
+  "liability_covers": {
+    "employers_liability": {
+      "description": "Employees engaged in CNC machining, die casting, assembly, warehousing, and clerical duties. Strict PPE policy (boots, ear defense, goggles). Machine guarding interlocks tested daily. Forklift drivers must be RTITB certified.",
+      "wageroll_breakdown": {
+        "clerical_managerial": "£1,200,000",
+        "manual_manufacturing": "£2,800,000",
+        "warehousing": "£600,000",
+        "sales_work_away": "£350,000",
+        "drivers": "£150,000"
+      }
+    },
+    "public_and_products_liability": {
+      "product_description": "Precision aluminium components (housings, brackets, mounts) for automotive engines and interiors. No critical safety parts (brakes/steering) manufactured.",
+      "quality_standards": "ISO 9001 and IATF 16949.",
+      "sourcing": "Raw aluminium sourced from UK and Norway smelters.",
+      "site_access": "Strictly controlled via gatehouse. Visitors must sign in and wear high-vis vests.",
+      "turnover_breakdown": {
+        "UK": "£18,000,000",
+        "EEA": "£4,500,000",
+        "USA_Canada": "£2,000,000",
+        "Rest_of_World": "£500,000"
+      }
+    },
+    "liability_claims_history": [
+      {
+        "year": "2022",
+        "type": "EL",
+        "details": "Employee slipped in loading bay. Minor soft tissue injury.",
+        "amount_paid": "£4,500",
+        "reserve": "£0 (Closed)",
+        "remedial_action": "Anti-slip coating applied to loading bay floor."
+      },
+      {
+        "year": "2024",
+        "type": "PL",
+        "details": "Alleged scratch damage to delivery truck by forklift.",
+        "amount_paid": "£850",
+        "reserve": "£0 (Closed)",
+        "remedial_action": "Driver refresher training completed."
+      }
+    ]
+  }
+}
