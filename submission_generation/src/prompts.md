@@ -16,7 +16,6 @@ As described in the attached markdown file.
 3. Plain text: Submission email to an underwriter referencing the attachment(s), e.g., the PDF and Excel files. 
 
 
-
 ## Version 2
 You are a Senior Insurance Broker. Read the attached template markdown file. Using the structure, contents and instructions as provided by the template, generate a realistic insurance submission for a UK manufacturer. OUTPUT AS VALID JSON.
 
