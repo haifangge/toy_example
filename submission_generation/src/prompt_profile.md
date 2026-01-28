@@ -25,3 +25,45 @@ This profile should resemble a well‑prepared incumbent renewal submission.
     - Invented Broker logo
 
 Maintain clarity, but maximise naming inconsistency.
+
+
+
+## Prompt Profile: Fragmented Submission
+
+- Split core information across multiple files.
+- PDF should reference information “attached separately”.
+- Provide either:
+  - Excel with claims history only, or
+  - Excel with values only (not both).
+- Use a Word document for a supplemental questionnaire or risk overview.
+
+No single document should be fully self‑contained.
+
+
+
+## Prompt Profile: Best Practice Submission
+
+- Clear structure aligned with UK fair presentation principles.
+- Consistent but not identical terminology.
+- Include risk improvements, surveys, and loss commentary.
+- Excel is well‑formatted with explanatory notes.
+
+This profile represents an exemplary mid‑market submission.
+
+
+
+## Prompt Profile: Deferred Information
+
+- Omit full values from the PDF.
+- Apply light–medium “scanned document” effects to PDF submissions:
+    - Slight skew/rotation
+    - Scan artefacts
+    
+- Email should state that:
+  - Final values are subject to confirmation, or
+  - Claims history is attached separately and summarised only.
+- Excel may contain partial data, ranges, or notes.
+
+This should reflect a realistic mid‑market time‑pressured submission.
+
+

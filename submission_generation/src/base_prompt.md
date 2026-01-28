@@ -25,8 +25,8 @@ Ensure meaning remains clear and UK‑market appropriate.
 
 ## Output Composition
 - Generate **2–4 submission artefacts** selected from:
-  - Broker email (always)
-  - PDF submission (main broking submission document, may exclude certain data (e.g., values, claims) if provided separately)
+  - Broker email (always), in downloadble .eml format, using ASCII-safe punctuation, and 7bit Content-Transfer-Encoding.
+  - PDF submission (main broking submission document, may exclude certain data (e.g., values, claims) if provided separately), note that in PDF replace all such glyphs with plain ASCII - hyphens and simplified punctuation
   - Excel spreadsheet (values, claims, or locations)
   - Word document (questionnaire, addendum, or values statement)
 - The combination must reflect **real broker workflows**.
@@ -38,3 +38,12 @@ Ensure meaning remains clear and UK‑market appropriate.
 
 ## Objective
 Maximise **real‑world variability** while remaining **true to UK mid‑market commercial property practice**, in order to stress‑test downstream extraction systems.
+
+
+
+Kept the “scan” effect by applying:
+
+speckle/noise
+faint scan lines
+subtle edge shading
+and a slight rotation to the background texture only
