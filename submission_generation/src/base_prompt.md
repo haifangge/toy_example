@@ -38,12 +38,3 @@ Ensure meaning remains clear and UK‑market appropriate.
 
 ## Objective
 Maximise **real‑world variability** while remaining **true to UK mid‑market commercial property practice**, in order to stress‑test downstream extraction systems.
-
-
-
-Kept the “scan” effect by applying:
-
-speckle/noise
-faint scan lines
-subtle edge shading
-and a slight rotation to the background texture only

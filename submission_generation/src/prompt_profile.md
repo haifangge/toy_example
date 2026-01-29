@@ -67,3 +67,24 @@ This profile represents an exemplary mid‑market submission.
 This should reflect a realistic mid‑market time‑pressured submission.
 
 
+
+# Prompt Profile: Rushed Renewal
+
+- Email is informal and slightly compressed.
+- PDF has minimal narrative and heavier bullet‑point use.
+- Some sections are merged (e.g. Construction & Occupancy).
+- Excel headers are abbreviated (e.g. “Bldg”, “Mach”, “Stock”).
+
+Tone should reflect a broker close to renewal deadline.
+
+
+
+
+Add the “scan” effect by applying:
+
+speckle/noise
+faint scan lines
+subtle edge shading
+and a slight rotation to the background texture only
+
+
